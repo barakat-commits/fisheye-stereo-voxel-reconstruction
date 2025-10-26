@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Camera data - exclude large binary/image files
+camera/*.bin
+camera/*.png
+camera/*.jpg
+camera/*.jpeg
+camera/aruco_calibration/*.png
+camera/aruco_calibration/*.jpg
+camera/stereo_captures/*.png
+camera/stereo_captures/*.jpg
+camera/fisheye_test/*.png
+camera/fisheye_test/*.jpg
+
+# Keep the ArUco board image (needed for printing)
+!camera/aruco_board.png
+
+# Calibration data - keep JSON, exclude captures
+camera/*_captures/
+camera/vertical_calibration_*.json
+camera/stereo_calibration_*.json
+camera/calibrated_voxels_*.bin
+
+# Keep the main calibration file
+!camera/stereo_calibration.json
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
+# Project specific
+test_*.py
+simple_*.py

@@ -1,0 +1,21 @@
+# Core dependencies for voxel processing framework
+# These are the minimal requirements to run the examples
+
+# Array operations and C++ bindings
+numpy>=1.21.0
+pybind11>=2.10.0
+
+# Scientific computing
+scipy>=1.9.0
+
+# 3D visualization
+pyvista>=0.38.0
+
+# Image processing
+opencv-python>=4.5.0
+Pillow>=9.0.0
+
+# Plotting (optional, for some examples)
+matplotlib>=3.5.0
+
+

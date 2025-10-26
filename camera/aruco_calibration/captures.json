@@ -1,0 +1,138 @@
+{
+  "captures": [
+    {
+      "id": 0,
+      "left_markers": 20,
+      "right_markers": 13,
+      "timestamp": "2025-10-25T09:33:20.242431"
+    },
+    {
+      "id": 1,
+      "left_markers": 20,
+      "right_markers": 15,
+      "timestamp": "2025-10-25T09:35:21.613324"
+    },
+    {
+      "id": 2,
+      "left_markers": 19,
+      "right_markers": 20,
+      "timestamp": "2025-10-25T09:36:14.742821"
+    },
+    {
+      "id": 3,
+      "left_markers": 20,
+      "right_markers": 17,
+      "timestamp": "2025-10-25T09:36:29.569635"
+    },
+    {
+      "id": 4,
+      "left_markers": 19,
+      "right_markers": 18,
+      "timestamp": "2025-10-25T09:36:56.018580"
+    },
+    {
+      "id": 5,
+      "left_markers": 20,
+      "right_markers": 19,
+      "timestamp": "2025-10-25T09:37:10.465176"
+    },
+    {
+      "id": 6,
+      "left_markers": 20,
+      "right_markers": 20,
+      "timestamp": "2025-10-25T09:37:23.800996"
+    },
+    {
+      "id": 7,
+      "left_markers": 20,
+      "right_markers": 20,
+      "timestamp": "2025-10-25T09:37:36.962692"
+    },
+    {
+      "id": 8,
+      "left_markers": 17,
+      "right_markers": 19,
+      "timestamp": "2025-10-25T09:37:59.738210"
+    },
+    {
+      "id": 9,
+      "left_markers": 20,
+      "right_markers": 11,
+      "timestamp": "2025-10-25T09:39:00.048264"
+    },
+    {
+      "id": 10,
+      "left_markers": 20,
+      "right_markers": 17,
+      "timestamp": "2025-10-25T09:39:13.779476"
+    },
+    {
+      "id": 11,
+      "left_markers": 20,
+      "right_markers": 20,
+      "timestamp": "2025-10-25T09:39:27.312941"
+    },
+    {
+      "id": 12,
+      "left_markers": 20,
+      "right_markers": 19,
+      "timestamp": "2025-10-25T09:39:44.403127"
+    },
+    {
+      "id": 13,
+      "left_markers": 20,
+      "right_markers": 19,
+      "timestamp": "2025-10-25T09:39:58.883317"
+    },
+    {
+      "id": 14,
+      "left_markers": 20,
+      "right_markers": 19,
+      "timestamp": "2025-10-25T09:40:14.391769"
+    },
+    {
+      "id": 15,
+      "left_markers": 16,
+      "right_markers": 18,
+      "timestamp": "2025-10-25T09:40:30.031590"
+    },
+    {
+      "id": 16,
+      "left_markers": 18,
+      "right_markers": 19,
+      "timestamp": "2025-10-25T09:40:49.418610"
+    },
+    {
+      "id": 17,
+      "left_markers": 20,
+      "right_markers": 20,
+      "timestamp": "2025-10-25T09:41:05.981264"
+    },
+    {
+      "id": 18,
+      "left_markers": 20,
+      "right_markers": 20,
+      "timestamp": "2025-10-25T09:41:17.777163"
+    },
+    {
+      "id": 19,
+      "left_markers": 20,
+      "right_markers": 20,
+      "timestamp": "2025-10-25T09:41:36.429720"
+    },
+    {
+      "id": 20,
+      "left_markers": 20,
+      "right_markers": 19,
+      "timestamp": "2025-10-25T09:41:44.213276"
+    }
+  ],
+  "board": {
+    "markers_x": 5,
+    "markers_y": 4,
+    "marker_length": 0.04,
+    "marker_separation": 0.01,
+    "dictionary": "DICT_4X4_50"
+  },
+  "timestamp": "2025-10-25T09:41:56.663734"
+}

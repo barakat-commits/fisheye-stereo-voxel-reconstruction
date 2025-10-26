@@ -1,0 +1,21 @@
+# Full dependencies including LLM text processing tools
+# Use this if you need the additional packages mentioned in the source documents
+# Compatible with onefilellm 0.1.0
+
+# First install the core requirements
+-r requirements.txt
+
+# Additional packages for LLM agents and text processing
+# These versions are compatible with onefilellm
+nltk==3.7
+PyPDF2==2.10.0
+youtube-transcript-api==0.4.1
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+tiktoken>=0.3.0
+astropy>=5.0.0
+
+# Note: If you have onefilellm installed, these versions will be used automatically
+
+
+

@@ -1,0 +1,17 @@
+# Additional requirements for ZWO ASI camera support
+# Install with: pip install -r requirements-camera.txt
+
+# First install core requirements
+-r requirements.txt
+
+# ZWO ASI camera Python wrapper
+zwoasi>=1.0.0
+
+# Note: You also need to install the ZWO ASI SDK separately
+# Download from: https://www.zwoastro.com/downloads/developers
+#
+# Windows: Copy ASICamera2.dll to C:\Windows\System32\
+# Linux: sudo cp libASICamera2.so /usr/local/lib/ && sudo ldconfig
+
+
+

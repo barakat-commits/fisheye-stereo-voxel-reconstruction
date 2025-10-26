@@ -1,0 +1,69 @@
+{
+  "cameras": [
+    {
+      "id": "left",
+      "position": [0.0, 0.0, 0.0],
+      "orientation": {
+        "yaw": 0.0,
+        "pitch": 90.0,
+        "roll": 0.0
+      },
+      "calibration_file": "camera/calibration.yml",
+      "asi_camera_index": 0,
+      "settings": {
+        "exposure_us": 30000,
+        "gain": 300,
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "id": "right",
+      "position": [0.5, 0.0, 0.0],
+      "orientation": {
+        "yaw": 0.0,
+        "pitch": 90.0,
+        "roll": 0.0
+      },
+      "calibration_file": "camera/calibration.yml",
+      "asi_camera_index": 1,
+      "settings": {
+        "exposure_us": 30000,
+        "gain": 300,
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  ],
+  "voxel_grid": {
+    "size": 64,
+    "voxel_size_meters": 0.01,
+    "bounds": {
+      "x_min": -0.25,
+      "x_max": 0.75,
+      "y_min": 0.0,
+      "y_max": 0.64,
+      "z_min": 0.0,
+      "z_max": 0.64
+    },
+    "coordinate_system": {
+      "x_axis": "horizontal (left-right)",
+      "y_axis": "depth (forward-back)",
+      "z_axis": "height (up-down, Z=0 is ground)"
+    }
+  },
+  "reconstruction": {
+    "motion_threshold": 25,
+    "max_ray_distance_meters": 1.0,
+    "ray_step_size_ratio": 0.5,
+    "temporal_decay": 0.99,
+    "multi_camera_boost": 1.5,
+    "distance_falloff_factor": 0.2,
+    "voxel_print_threshold": 50
+  },
+  "recording": {
+    "duration_seconds": 15,
+    "warmup_delay_seconds": 0.5
+  }
+}
+
