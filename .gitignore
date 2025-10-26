@@ -40,11 +40,11 @@ wheels/
 .DS_Store
 Thumbs.db
 
+# Screenshots and personal images (root level only)
+/*.png
+
 # Camera data - exclude large binary/image files
 camera/*.bin
-camera/*.png
-camera/*.jpg
-camera/*.jpeg
 camera/aruco_calibration/*.png
 camera/aruco_calibration/*.jpg
 camera/stereo_captures/*.png
@@ -54,6 +54,8 @@ camera/fisheye_test/*.jpg
 
 # Keep the ArUco board image (needed for printing)
 !camera/aruco_board.png
+# Keep test images (no personal data)
+!camera/test_images/*.png
 
 # Calibration data - keep JSON, exclude captures
 camera/*_captures/
